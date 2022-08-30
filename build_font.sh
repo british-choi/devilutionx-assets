@@ -17,6 +17,7 @@ build_fonts_mpq() {
   fi
   rm -f fonts.mpq
   mkdir -p build/fonts
+  touch build/fonts/12-4e.clx
   pcx2clx --output-dir build/fonts --transparent-color 1 --num-sprites 256 --quiet assets/fonts/*.pcx
   cd build
   find fonts -type f -exec smpq -M 1 -C BZIP2 -c ../fonts.mpq '{}' '+'
