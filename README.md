@@ -10,3 +10,21 @@ pcx2clx를 build하기 위해서는 cmake 3.16 이상 gcc-9 필요함
 
 # License
 All fonts are under the [SIL Open Font License](LICENSE-SIL.txt), fonts used are [Noto](https://github.com/googlefonts/noto-cjk) and [Unifont](https://unifoundry.com/unifont/).
+
+# Ubuntu 18.04 에 cmake 3.18 설치
+
+```
+sudo apt-get update
+sudo apt upgrade
+sudo apt install qt5-default
+apt-get install libssl-dev
+wget https://github.com/Kitware/CMake/releases/download/v3.18.2/cmake-3.18.2.tar.gz
+tar -xvf cmake-3.18.2.tar.gz
+cd cmake-3.18.2
+./bootstrap 
+make
+sudo make install
+```
+
+# GCC 설치
+https://jjeongil.tistory.com/1606
