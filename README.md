@@ -9,7 +9,10 @@ https://github.com/diasurgical/devilutionx-graphics-tools/
 pcx2clx를 build하기 위해서는 cmake 3.16 이상 gcc-9 필요함
 
 # License
-All fonts are under the [SIL Open Font License](LICENSE-SIL.txt), fonts used are [Noto](https://github.com/googlefonts/noto-cjk) and [Unifont](https://unifoundry.com/unifont/).
+All fonts are under the [SIL Open Font License](LICENSE-SIL.txt),
+fonts used are [Noto](https://github.com/googlefonts/noto-cjk)
+and [Unifont](https://unifoundry.com/unifont/), with gamepad symbols
+from [greatdocbrown](https://greatdocbrown.itch.io/gamepad-ui).
 
 # Ubuntu 18.04 에 cmake 3.18 설치
 
